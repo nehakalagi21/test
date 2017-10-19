@@ -1,1 +1,16 @@
 
+#Printing Hotel bill
+print(format('Sri Krishna Veg Diet','>35'))
+print('\t163,Anand Niwas,Dr. E. Moses Road,\n\tOpp.Jijamata Road,Worli,Mumbai-18.\n\t\t022-249447222/24925590')
+print('BILL NO.-243')
+print('Waiter-RN\nDate-02/08/2017\nTime-7:31:00PM')
+print('*'*50)
+print('ITEMS',format('','<10'),'QTY',format('','<10'),'AMOUNT')
+print('PAV BHAJI',format('','<8'),'2',format('','<10'),'100')
+print('SPL PULAO',format('','<8'),'1',format('','<10'),'110')
+print(format('','<15'),'CGST 9.00%',format('','<4'),'19.10')
+print(format('','<15'),'SGST 9.00%',format('','<4'),'19.1O')
+print('*'*50)
+print('TOTAL AMOUNT',format('','<15'),'RS 248.2')
+print('*'*50)
+print('\t','*'*4,'THANKING YOU, VISIT AGAIN','*'*4)
